@@ -4,7 +4,7 @@ Ce notebook présente une implémentation d'un modèle de Perceptron pour classe
 
 ## Description du projet
 
-L'objectif de ce projet est de construire un modèle de classification capable de distinguer les différentes espèces de fleurs d'Iris (Setosa, Versicolor, Virginica) en se basant sur quatre caract¨¦ristiques morphologiques :
+L'objectif de ce projet est de construire un modèle de classification capable de distinguer les différentes espèces de fleurs d'Iris (Setosa, Versicolor, Virginica) en se basant sur quatre caractéristiques morphologiques :
 - Longueur des sépales
 - Largeur des sépales
 - Longueur des pétales
@@ -17,13 +17,13 @@ L'objectif de ce projet est de construire un modèle de classification capable d
    - Séparation en ensembles d'entraînement et de test (80%/20%)
    - Normalisation des données avec `StandardScaler`
 3. **Modélisation** :
-   - Création d'un mod¨¨le Perceptron avec les paramètres :
+   - Création d'un modèle Perceptron avec les paramètres :
      - `max_iter=1000` (nombre maximum d'itérations)
      - `eta0=0.1` (taux d'apprentissage)
      - `random_state=42` (pour la reproductibilité)
 4. **Evaluation** :
    - Calcul de la précision (accuracy)
-   - Rapport de classification détaill¨¦
+   - Rapport de classification détaillé
    - Nombre de prédictions effectuées
 
 ## Résultats
